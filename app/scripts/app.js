@@ -14,7 +14,7 @@ angular
     'ngCookies',
     'ngRoute',
     'ngSanitize',
-    'ngTouch', 'ngMaterial'
+    'ngTouch'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -31,8 +31,4 @@ angular
       .otherwise({
         redirectTo: '/'
       });
-  }).config(function($mdThemingProvider) {
-  $mdThemingProvider.theme('default')
-    .primaryPalette('blue-grey')
-    .accentPalette('grey');
-});
+  });
