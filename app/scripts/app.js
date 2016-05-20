@@ -23,6 +23,26 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
+     .when('/sms', {
+        templateUrl: 'views/sms.html',
+        controller: 'SmsCtrl',
+        controllerAs: 'main'
+      })
+      .when('/cloudmessaging', {
+        templateUrl: 'views/cloud_messaging.html',
+        controller: 'CloudMessagingCtrl',
+        controllerAs: 'main'
+      })
+       .when('/contactdirectory', {
+        templateUrl: 'views/contact_directory.html',
+        controller: 'ContactDirectoryCtrl',
+        controllerAs: 'main'
+      })
+      .when('/howitworks', {
+        templateUrl: 'views/how_it_works.html',
+        controller: 'HowItWorksCtrl',
+        controllerAs: 'main'
+      })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',

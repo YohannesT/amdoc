@@ -8,6 +8,10 @@
  * Controller of the githubioApp
  */
 angular.module('githubioApp')
-  .controller('SmsCtrl', function () {
-    
+  .controller('CloudMessagingCtrl', function () {
+    this.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
   });

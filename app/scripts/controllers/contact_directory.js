@@ -8,6 +8,6 @@
  * Controller of the githubioApp
  */
 angular.module('githubioApp')
-  .controller('SmsCtrl', function () {
+  .controller('ContactDirectoryCtrl', function () {
     
   });
